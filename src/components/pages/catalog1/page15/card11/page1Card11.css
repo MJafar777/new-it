@@ -1,0 +1,82 @@
+.catalog1-page1-card11-component{
+    display: grid;
+    grid-gap:20px 10%;
+    padding: 0;
+    margin: 130px 0 50px 0;
+    grid-template-columns: 40% auto;
+    background-color: rgba(165, 165, 245, 0.25);
+    align-items: center;
+
+}
+.catalog1-page1-card11-component-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.catalog1-page1-card11-component img {
+    max-width: 350px;
+    width: 80%;
+    margin: 0 10%;
+    margin-top: -120px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .catalog1-page1-card11-component{
+        grid-template-columns: auto;
+        padding: 20px 10%;
+        text-align: center;
+    }
+    .card111-button{
+        width: 70%;
+        margin: 0  15%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+ 
+  }
+  @media only screen and (min-width: 600px) {
+    .catalog1-page1-card11-component{
+        grid-template-columns: auto;
+        padding: 0 20%;
+        text-align: center;
+    }
+
+    .card111-button{
+        width: 70%;
+        margin: 0  15%;
+        margin-bottom: 20px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    
+
+    .card111-button{
+        width: 60%;
+        margin: 0  20%;
+        margin-bottom: 20px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .catalog1-page1-card11-component{
+        grid-template-columns: 40% auto;
+        padding: 10px 0;
+        text-align: left;
+
+    }
+    
+    .card111-button{
+        width: 45%;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    
+    .card111-button{
+        width: 35%;
+        margin: 0;
+    }
+  }

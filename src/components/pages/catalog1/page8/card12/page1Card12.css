@@ -1,0 +1,33 @@
+.catalog1-page1-card12-container {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 30px 5%;
+  align-items: center;
+  justify-content: space-around;
+}
+.catalog1-page1-card12-container img {
+  padding: 10%;
+  width: 80%;
+  max-height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .catalog1-page1-card12-container {
+    grid-template-columns: auto;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .catalog1-page1-card12-container {
+    grid-template-columns:  auto;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .catalog1-page1-card12-container {
+    grid-template-columns: 30% auto 30%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+}

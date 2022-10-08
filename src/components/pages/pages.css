@@ -1,0 +1,32 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.pagesApp {
+  margin: 0 12%;
+}
+@media only screen and (max-width: 600px) {
+  .pagesApp {
+    margin: 0 2%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .pagesApp {
+    margin: 0 1%;
+  }
+}
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+  .pagesApp {
+    margin: 0 5%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .pagesApp {
+    margin: 0 12%;
+  }
+  
+}

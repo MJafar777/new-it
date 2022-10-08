@@ -1,0 +1,47 @@
+.category1-page1-card7-grid{
+    display: grid;
+    grid-template-columns: 45% auto;
+    align-items: center;
+}
+.category1-page1-card7-2-grid{
+display: block;
+}
+
+  @media only screen and (max-width: 300px) {
+    .category1-page1-card7-grid{
+        display: none;
+        grid-template-columns: 45% auto;
+        align-items: center;
+    }
+    
+.category1-page1-card7-container{
+    display: none;
+}
+}
+  @media only screen and (min-width: 300px) {
+    .category1-page1-card7-grid{
+        display: none;
+    }
+    
+.category1-page1-card7-container{
+ display: none;   
+}
+  }
+  @media only screen and (min-width: 600px) {
+    .category1-page1-card7-grid{
+        display: grid;
+        grid-template-columns: 45% auto;
+        align-items: center;
+    }
+    
+.category1-page1-card7-container{
+ display: block;   
+}
+  }
+  
+  @media only screen and (min-width: 992px) {
+  }
+  @media only screen and (min-width: 1200px) {
+    
+  }
+  

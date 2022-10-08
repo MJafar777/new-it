@@ -1,0 +1,36 @@
+.catalog1-page1-card4-container {
+  padding: 20px 16%;
+}
+
+iframe {
+  height: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+  .catalog1-page1-card4-container {
+    padding: 20px 0;
+  }
+
+  iframe {
+    height: 300px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .catalog1-page1-card4-container {
+    padding: 20px 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .catalog1-page1-card4-container {
+    padding: 20px 16%;
+  }
+
+  iframe {
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+}

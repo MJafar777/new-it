@@ -1,0 +1,32 @@
+.category1-page-card10-component{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 10px 5%;
+    justify-content: space-around;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .category1-page-card10-component{
+        grid-template-columns: auto;
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    .category1-page-card10-component{
+        grid-template-columns: auto;
+        grid-gap: 20px 5%;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .category1-page-card10-component{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-gap: 20px 5%;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+  }
+  @media only screen and (min-width: 1200px) {
+    
+  }

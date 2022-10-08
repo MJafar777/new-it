@@ -1,0 +1,26 @@
+.catalog1-page1-card1-grid{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-gap: 30px 4%;
+
+}
+@media only screen and (min-width: 600px) {
+  
+  }
+  @media only screen and (min-width: 768px) {
+    .catalog1-page1-card1-grid{
+        grid-template-columns:  29% auto 29%;
+    
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+ 
+  }
+  @media only screen and (min-width: 1200px) {
+    .catalog1-page1-card1-grid{
+        grid-template-columns:  22% 22% 22% 22%;
+    
+    }
+  }
+  

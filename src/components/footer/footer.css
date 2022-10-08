@@ -1,0 +1,42 @@
+
+.footer-container{
+padding: 60px 12%;
+/* background-color: rgb(14, 55, 86); */
+
+}
+
+.footer-grid-card{
+display: grid;
+grid-template-columns: 35% 15% 15% 15% auto;
+grid-gap: 2%;
+color: black;
+margin-bottom: 10px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .footer-grid-card {
+      grid-template-columns: auto ;
+      text-align: center;
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    .footer-grid-card {
+      grid-template-columns: auto auto;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .footer-grid-card {
+      grid-template-columns: auto auto auto auto;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .footer-grid-card {
+      grid-template-columns: 28% 14% 14% 15% auto;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+  }

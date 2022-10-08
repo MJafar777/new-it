@@ -1,0 +1,32 @@
+
+@media (max-width : 900px) {
+    .sm_center{
+        display: flex;
+    }
+    .title{
+        font-size: 20px;
+    }
+}
+@media (max-width : 576px) {
+    
+    .sm_center ,section ,.myimg ,.texts ,.title {
+        text-align: center !important;
+        margin: auto;
+    }
+    .about__company{
+        text-align: left;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .wehave{
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 !important;
+    }
+    .other__jobs{
+        margin: 0;
+        padding : '0'
+    }
+}
