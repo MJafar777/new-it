@@ -21,6 +21,10 @@ body::-webkit-scrollbar-thumb {
   background: rgba(186, 186, 186, 0.671);
   border-radius: 10px;
 }
+::selection {
+  color: #fff;
+  background: #f2480c;
+}
 .container {
   width: 90%;
   margin: 0 auto;
