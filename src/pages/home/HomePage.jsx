@@ -1,16 +1,32 @@
+import { Description } from "@mui/icons-material";
 import React from "react";
-import DeviceRepair from "../../Components/HomePagaComponent/DeviceRepair/DeviceRepair";
-import Featured from "../../Components/HomePagaComponent/Featured/Featured";
+import Fotter from "../../Components/Fotter/Fotter";
+import Advantages from "../../Components/HomePagaComponent/Advantages/Advantages";
+import ContactUs from "../../Components/HomePagaComponent/ContactUs/ContactUs";
+import Employees from "../../Components/HomePagaComponent/Employees/Employees";
 import Hero from "../../Components/HomePagaComponent/Hero/Hero";
-import HeroSelect from "../../Components/HomePagaComponent/HeroSelect/HeroSelect";
+import Location from "../../Components/HomePagaComponent/Location/Location";
+import OurServices from "../../Components/HomePagaComponent/OurServices/OurServices";
+import Partners from "../../Components/HomePagaComponent/Partners/Partners";
+import ServiceMenu from "../../Components/HomePagaComponent/ServiceMenu/ServiceMenu";
+import Statistics from "../../Components/HomePagaComponent/Statistics/Statistics";
+import Navbar from "../../Components/Navbar/Navbar";
 
 const HomePage = () => {
   return (
     <div>
+      <Navbar />
       <Hero />
-      <HeroSelect />
-      <DeviceRepair />
-      <Featured />
+      <ServiceMenu />
+      <Partners />
+      <Statistics />
+      <OurServices />
+      <Employees />
+      <Description />
+      <Advantages />
+      <ContactUs />
+      <Location />
+      <Fotter />
     </div>
   );
 };
