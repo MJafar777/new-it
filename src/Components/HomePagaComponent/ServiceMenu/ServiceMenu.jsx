@@ -1,11 +1,16 @@
 import React from "react";
 import laptop from "../../../img/laptop.jpg";
+import pc from "../../../img/pc.jpg";
+import conditioner from "../../../img/conditioner.jpg";
+import video_surveillance1 from "../../../img/video_surveillance1.jpg";
+import household_appliances from "../../../img/household_appliances.jpg";
+import printer from "../../../img/printer1.jpg";
 import s from "./serviceMenu.module.css";
 const services = [
   {
     id: 1,
     name: "PC",
-    img: laptop,
+    img: pc,
   },
   {
     id: 2,
@@ -15,22 +20,22 @@ const services = [
   {
     id: 3,
     name: "Konditsioner",
-    img: laptop,
+    img: conditioner,
   },
   {
     id: 4,
     name: "Videonabludeniya",
-    img: laptop,
+    img: video_surveillance1,
   },
   {
     id: 5,
     name: "Bitoviy texnika",
-    img: laptop,
+    img: household_appliances,
   },
   {
     id: 6,
     name: "Printer",
-    img: laptop,
+    img: printer,
   },
 ];
 
@@ -45,6 +50,7 @@ const ServiceMenu = () => {
               <div className={s.imgBox}>
                 <img src={service.img} alt={service.name} />
               </div>
+              <div className={s.box_shadow}></div>
               <h5 className={s.serviceName}>{service.name}</h5>
             </div>
           );
