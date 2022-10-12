@@ -1,19 +1,22 @@
 .serviceBox {
   position: relative;
   cursor: pointer;
+  overflow: hidden;
+  border-radius: 7px;
 }
 .serviceBox:hover .imgBox img {
-  transform: scale(1.1);
+  transform: scale(1.2);
   transition: 1s;
+  overflow: hidden;
 }
+
 .imgBox img {
   width: 100%;
   height: 160px;
   border-radius: 7px;
+  display: block;
 }
-.imgBox img:hover {
-  transform: scale(1.5);
-}
+
 .imgBox {
   filter: blur(0.5px);
   box-shadow: 10px #000 inset;
@@ -51,4 +54,10 @@
   -webkit-box-shadow: 3px -31px 48px 45px rgba(34, 60, 80, 0.2) inset;
   -moz-box-shadow: 3px -31px 48px 45px rgba(34, 60, 80, 0.2) inset;
   box-shadow: 3px -31px 48px 45px rgba(34, 60, 80, 0.2) inset;
+}
+.serviceBox:hover .box_shadow {
+  transition: 1s;
+  -webkit-box-shadow: 10px -11px 49px 67px rgba(34, 60, 80, 0.27) inset;
+  -moz-box-shadow: 10px -11px 49px 67px rgba(34, 60, 80, 0.27) inset;
+  box-shadow: 10px -11px 49px 67px rgba(34, 60, 80, 0.27) inset;
 }
