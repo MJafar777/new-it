@@ -1,9 +1,9 @@
-import { Description } from "@mui/icons-material";
 import React from "react";
 import Fotter from "../../Components/Fotter/Fotter";
 import Advantages from "../../Components/HomePagaComponent/Advantages/Advantages";
 import ContactUs from "../../Components/HomePagaComponent/ContactUs/ContactUs";
 import Employees from "../../Components/HomePagaComponent/Employees/Employees";
+import Description from "../../Components/HomePagaComponent/Description/Description";
 import Hero from "../../Components/HomePagaComponent/Hero/Hero";
 import Location from "../../Components/HomePagaComponent/Location/Location";
 import OurServices from "../../Components/HomePagaComponent/OurServices/OurServices";
