@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-
+import React from "react";
+import Counter from "./Counter/Counter";
 import s from "./statistics.module.css";
 const container = "container";
 
@@ -13,15 +13,21 @@ const Statistics = () => {
           <h2 className={s.title2}>Tezkor Texniklar ixtirosi platformasi №1</h2>
         </div>
         <div className={s.status}>
-          <h1 className={s.sts}>234 034</h1>
+          <h1 className={s.sts}>
+            <Counter end={312312} start={0} timer={20} />
+          </h1>
           <p>Xizmat ko'rsatilgan insonlar</p>
         </div>
         <div className={s.status}>
-          <h1 className={s.sts}>335 123</h1>
+          <h1 className={s.sts}>
+            <Counter end={712312} start={0} timer={10} />
+          </h1>
           <p>Turli xil savdo tovarlari</p>
         </div>
         <div className={s.status}>
-          <h1 className={s.sts}>235 123</h1>
+          <h1 className={s.sts}>
+            <Counter end={12312} start={0} timer={20} />
+          </h1>
           <p>Yangi e'lonlar</p>
         </div>
       </div>
