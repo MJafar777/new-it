@@ -10,7 +10,7 @@ html {
   transition: 0.3s linear;
 }
 body {
-  background-color: #f0f0f0;
+  background-color: #fff;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -26,6 +26,10 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   background: rgba(186, 186, 186, 0.671);
   border-radius: 10px;
+}
+::selection {
+  color: #fff;
+  background: #f2480c;
 }
 .container {
   width: 90%;

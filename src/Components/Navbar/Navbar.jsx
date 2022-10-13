@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import headerLogo from "../../img/logo/logo.png";
 
 const Navbar = () => {
   const [hover, setHover] = useState(false);
@@ -54,8 +55,11 @@ const Navbar = () => {
       <div className="head">
         <div className="container flex items-center justify-between ">
           <div className="left_head flex items-center justify-between gap-6 py-6">
-            <div className="imgContainer">
-              <img src="" alt="header_Img" />
+            <div className="imgContainer flex items-center gap-3">
+              <img className="h-12" src={headerLogo} alt="header_Img" />
+              <span className="align-center text-base font-medium">
+                TEZKOR TEXNIKLAR <br /> IXTIROSI
+              </span>
             </div>
             <div className="flex items-center">
               <div className="flex border border-purple-200 rounded">
@@ -115,7 +119,7 @@ const Navbar = () => {
                     </p>
                   )}
                   {item.subNavbar && hover && indexNum === index ? (
-                    <div className="absolute top-full left-0 right-0 bg-white">
+                    <div className="absolute top-full left-0 right-0 bg-white  z-50">
                       <hr />
                       <ul className="flex items-center justify-center">
                         {item.subNavbar.map((subItem, index) => (
@@ -129,7 +133,7 @@ const Navbar = () => {
                               {subItem.name}
                             </NavLink>
                             {index === subIndexNum ? (
-                              <ul className="absolute bg-white border border-gray-300 rounded-md min-w-max max-h-[500px] py-6">
+                              <ul className="absolute  bg-white border border-gray-300 rounded-md min-w-max max-h-[500px] py-6">
                                 <div>
                                   <h3 className="text-gray-800 text-2xl font-bold pb-2 px-8">Klaviatura</h3>
                                   <li>

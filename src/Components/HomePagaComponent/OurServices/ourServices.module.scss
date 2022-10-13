@@ -1,0 +1,61 @@
+.ourServiceHeader {
+  font-size: 3.2rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.ourService {
+  width: 1200px;
+  margin: 20px auto;
+  background-color: #f4f7fd;
+  padding: 20px 60px;
+}
+.serviceSubtitle {
+  color: black;
+  font-weight: bold;
+  font-size: 2.2rem;
+  letter-spacing: 1.2px;
+}
+.serviceStep {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.stepBox {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  text-align: center;
+  // background-color: #f4f7fd;
+  padding: 10px 20px;
+  border-radius: 5px;
+
+  h4 {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+}
+.stepImgBox {
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 0.05rem solid rgb(158, 158, 238);
+  -webkit-box-shadow: 15px 18px 54px -25px rgba(4, 89, 242, 0.71);
+  -moz-box-shadow: 15px 18px 54px -25px rgba(4, 89, 242, 0.71);
+  box-shadow: 15px 18px 54px -25px rgba(4, 89, 242, 0.71);
+
+  position: relative;
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

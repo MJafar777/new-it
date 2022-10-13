@@ -1,0 +1,70 @@
+.serviceBox {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 7px;
+}
+.serviceBox:hover .imgBox img {
+  transform: scale(1.2);
+  transition: 1s;
+  overflow: hidden;
+}
+
+.imgBox img {
+  width: 100%;
+  height: 160px;
+  border-radius: 7px;
+  display: block;
+}
+
+.imgBox {
+  filter: blur(0.5px);
+  box-shadow: 10px #000 inset;
+}
+.servicesMenu {
+  width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.servicesMenuFlex {
+  width: 1000px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px 20px;
+}
+.serviceName {
+  font-size: 1.8rem;
+  font-weight: bold;
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  font-family: sans-serif;
+  color: white;
+}
+.serviceHeader {
+  font-size: 3.2rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+.box_shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 7px;
+  -webkit-box-shadow: 3px -31px 48px 45px rgba(34, 60, 80, 0.2) inset;
+  -moz-box-shadow: 3px -31px 48px 45px rgba(34, 60, 80, 0.2) inset;
+  box-shadow: 3px -31px 48px 45px rgba(34, 60, 80, 0.2) inset;
+}
+.serviceBox:hover .box_shadow {
+  transition: 1s;
+  -webkit-box-shadow: 10px -11px 49px 67px rgba(34, 60, 80, 0.27) inset;
+  -moz-box-shadow: 10px -11px 49px 67px rgba(34, 60, 80, 0.27) inset;
+  box-shadow: 10px -11px 49px 67px rgba(34, 60, 80, 0.27) inset;
+}
