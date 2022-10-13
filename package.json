@@ -33,6 +33,7 @@
     "react-slick": "^0.29.0",
     "recharts": "^2.1.14",
     "redux": "^4.2.0",
+    "rsuite": "^5.19.0",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
@@ -60,5 +61,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.17",
+    "tailwindcss": "^3.1.8"
   }
 }
