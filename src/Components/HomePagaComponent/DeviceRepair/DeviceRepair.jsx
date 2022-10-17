@@ -1,6 +1,6 @@
 import React from "react";
 
-import s from "./deviceRepair.modul.css";
+import s from "./deviceRepair.module.css";
 
 import tools from "../../../img/tools_Icon/tools_icon.svg";
 
