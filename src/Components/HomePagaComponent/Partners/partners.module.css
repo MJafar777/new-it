@@ -2,6 +2,13 @@
   height: 10rem;
   padding: 7rem 10rem;
 }
+.title2 {
+  font-size: 3.2rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin: 2rem 0;
+  text-align: center;
+}
 
 @media (max-width: 1395px) {
   .box {
